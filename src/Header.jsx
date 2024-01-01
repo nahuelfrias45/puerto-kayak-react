@@ -2,7 +2,6 @@ import logo from '/logo.png'
 
 window.addEventListener('scroll', function(e) {
   e.preventDefault()
-   console.log('funcion 1')
   if (this.window.scrollY > 300) {
       document.querySelector('.header-section').style.background = 'rgb(56, 199, 173)'
   } else {
@@ -10,10 +9,10 @@ window.addEventListener('scroll', function(e) {
   }
 })
 
+//  ARREGLAR
 document.querySelectorAll('.nav-ul li a').forEach(function(navLink) {
   navLink.addEventListener('click', function(e) {
     e.preventDefault();
-    console.log('funcion 2')
         const targetElement = document.querySelector(this.getAttribute('href'));
         targetElement.scrollIntoView({
             behavior: 'smooth'

@@ -1,3 +1,4 @@
+import { Reservar } from './Reservar'
 import kayak from '/kayak2.jpg'
 import rappel from '/rappel2.jpg'
 import trekking from '/trekking2.jpg'
@@ -19,14 +20,7 @@ export function Actividades () {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus officiis commodi consequatur saepe ab possimus provident tempore, fuga ipsa a, illum veniam eius deleniti soluta deserunt, dolorem perspiciatis iure nobis.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque quasi provident non quidem nihil magnam error obcaecati. Esse rem magni nulla, assumenda molestias consectetur id? Similique dolore quia laborum!</p>
                   </div>
-                  <div className="btn-info">
-                    <button className="learn-more">
-                      <span className="circle" aria-hidden="true">
-                        <span className="icon arrow"></span>
-                      </span>
-                      <span className="button-text">Reservar</span>
-                    </button>
-                  </div>
+                  <Reservar text={Reservar}/>
                 </div>
               </div>
             </article>
@@ -40,14 +34,7 @@ export function Actividades () {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus officiis commodi consequatur saepe ab possimus provident tempore, fuga ipsa a, illum veniam eius deleniti soluta deserunt, dolorem perspiciatis iure nobis.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque quasi provident non quidem nihil magnam error obcaecati. Esse rem magni nulla, assumenda molestias consectetur id? Similique dolore quia laborum!</p>
                   </div>
-                  <div className="btn-info">
-                    <button className="learn-more">
-                      <span className="circle" aria-hidden="true">
-                        <span className="icon arrow"></span>
-                      </span>
-                      <span className="button-text">Reservar</span>
-                    </button>
-                  </div>
+                  <Reservar />
                 </div>
               </div>
               <img src={rappel} alt="rappel" loading="lazy" decoding="async"></img>
@@ -63,14 +50,7 @@ export function Actividades () {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus officiis commodi consequatur saepe ab possimus provident tempore, fuga ipsa a, illum veniam eius deleniti soluta deserunt, dolorem perspiciatis iure nobis.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque quasi provident non quidem nihil magnam error obcaecati. Esse rem magni nulla, assumenda molestias consectetur id? Similique dolore quia laborum!</p>
                   </div>
-                  <div className="btn-info">
-                    <button className="learn-more">
-                      <span className="circle" aria-hidden="true">
-                        <span className="icon arrow"></span>
-                      </span>
-                      <span className="button-text">Reservar</span>
-                    </button>
-                  </div>
+                  <Reservar />
                 </div>
               </div>
             </article>
